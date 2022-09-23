@@ -1,7 +1,6 @@
 package com.oops.basic;
 
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Main {
@@ -17,9 +16,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a num:");
         int numInput =sc.nextInt();
+        String str = sc.nextLine();
         System.out.println("Number in Input: " + numInput);
-
-
+        System.out.println(str);
 
 
        // emp1.setId(1);
